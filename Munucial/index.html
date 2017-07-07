@@ -33,8 +33,11 @@
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 		<style>
-			b#redtxt {
+			#redtxt {
 				color:red;
+			}
+			#smalltxt {
+				font-size: 90%;
 			}
 		</style>
 	</head>
@@ -77,14 +80,14 @@
                             	<th><h2>Munucial</h2></th>
                         	</tr>
                         	<tr>
-                            	<td style="font-size: 90%; width: 37vw">
+                            	<td id="smalltxt" style="width: 37vw">
 									When you heard <b>QuadFunc</b> you'll probably think it means "four function", if you thought this than you're right! QuadFunc is called because our goal is develop and make all the application we make can be used by
                                 	<br />
 									<b id="redtxt">Personal or Group</b>
                                 	<br />
 									<b id="redtxt">Beginner or Professional</b>
                             	</td>
-								<td style="font-size: 90%; width: 37vw">
+								<td id="smalltxt" style="width: 37vw">
 									Why called <b>Munucial</b>?  It's because while I'm building this project I want to be a high quality, multi-function CMS or web application, so this project called Munucial. Munucaial is a combine of <code style=color:red;">munus</code> which is function in Latin and suffix <code style=color:red;">-cial</code> which means quality. 
                             	</td>
                         	</tr>
@@ -98,7 +101,7 @@
 					<section id="reason">
 						<h4>Why would I want to build Munucial <br />or a self-made CMS?</h4>
 						<hr />
-						<p>it's because when you're making a website, different system have different feature. I get in a case very often when you're using others' CMS, that is after you use it for a while you found out the it does not contain some feature that is really imortant to you, or it's performance (like load speed or security) isn't just as well as you expect. So I want to build my own customized CMS or I called it multi-function (all-in-one) CMS.</p>
+						<p>it's because when you're making a website, different system have different feature. I get in a case very often when you're using others' CMS, that is after you use it for a while you found out the it does not contain some feature that is really imortant to you, or it's performance (like load speed or security) isn't just as well as you expect. And also there is a restriction, most of the CMS use PHP for routing and that will make a restriction for accessing you're own data, like if you upload your file to a path you can't really accessing them by typing the path in the address bar. So I want to build my own customized CMS or I called it multi-function (all-in-one) CMS.</p>
 					</section>
 				</section>
 
@@ -112,18 +115,18 @@
 								<td>
 									<ul style="width:35vw;">
 										<li><a href="#/nodejs">Using Node.js</a></li>
-										<li>Using express framework</li>
-										<li>JSON database (NoSQL)</li>
-										<li>Support content storing in JSON db or HTML file</li>
+										<li><a href="#/express">Using express framework</a></li>
+										<li><a href="#/db">JSON database (NoSQL)</a></li>
+										<li><a href="#/content">Support content storing in JSON db or HTML file</a></li>
 									</ul>
 								</td>
 								<td>
-									<ul>
-										<li>Fast response</li>
-										<li>Minimized code</li>
-										<li>Using Markdown</li>
-										<li>Using Bootstrap</li>
-										<li>Support API (v1)</li>
+									<ul style:"width:35vw;">
+										<li><a href="#/fast">Fast response</a></li>
+										<li><a href="#/minify">Minimized code</a></li>
+										<li><a href="#/markdown">Using Markdown</a></li>
+										<li><a href="#/bootstrap">Using Bootstrap</a></li>
+										<li><a href="#/api">Support API (v1)</a></li>
 									</ul>
 								</td>
 							</tr>
@@ -131,13 +134,269 @@
 					</section>
 
 
-					<section id="nodejs">
+					<section id="nodejs" style="font-size: 90%;">
 						What is node.js? Node.js is a server-side javascript based script.
-						<br />
+						<hr />
 						What's the difference between Javascript and Node.js? While javascript can only changing display on client-side, node.js can create file, update file, and read file.
-						<br/>
-						But why we don't use PHP? We don't use is because PHP can be slow if you need to handle many proccess and many CMS is build by PHP and the fact is their all slow though they're
+						<hr/>
+						But why we don't use PHP? We don't use is because PHP can be slow if you need to handle many proccess and many CMS is build by PHP and the fact is their all slow though slow response time can also be caused byvnot optimized plugin node.js is truely faster than PHP
 					</section>
+
+
+					<section id="express">
+						<h4>Using express framework has many benefit.</h4>
+						<b>We use express framework for <br />the whole operating system including: </b>
+						<ul>
+							<li>Serving content</li>
+							<li>Error handler</li>
+							<li>API system</li>
+							<li>Searching system</li>
+						</ul>
+					</section>
+
+
+
+					<section id="db">
+						<h3>Our promise: NoSQL is better <br />since it works in any environment</h3>
+						While every website environment supports different SQL database, like: CentOS7 use MariaDB, most host support MySQL. We thought it'll be easier if we use file as database, if so than even normal desktop user can use our system in their computer and only need to install node.js compile application.
+					</section>
+
+
+					<section id="fast">
+						As we test our server's average response time is 300ms which is a very good speed according to <br /><b>Google</b> <b>and Pingdom</b>'s report
+						<br />
+						As we said we're using node.js a fast server-side script <br />+ express a light-weight web framework <br />+ minimized script file,
+						<br />
+						We made a server application <br />with incredible fast response time
+						<br />
+						<strong style="font-size: 50%">server response time may change due on server location and datas' size</strong>
+					</section>
+
+
+					<section id="minify">
+						In our package we have a <code id="redtxt">minify.js</code> file look into it <br />you can change the file path from <br /><code id="redtxt">index.js</code> and <code id="redtxt">index.min.js</code> to the file you want <br />than run the script with <code id="redtxt">node minify.js</code> <br />in the script location then you're file is minimized
+						<hr />
+						Also our application script how two version<br />
+						<ol>
+							<li>Original file (index.js)</li>
+							<li>Minimized file (index.min.js)</li>
+						</ol>
+					</section>
+
+<!--
+					<section id="markdown">
+						Our application use markdown editor for post editing but you can also use HTML in markdown editor, but if you want to use HTML in your whole page you can also use <code id="redtxt">contentpath</code> value in <code id="redtxt">data/data.json</code> and specified the html file path <br /><a href="#/content-html">more info for contentpath is avaliable at here</a>
+						<br />
+						<table>
+							<tr>
+								<th>Markdown</th>
+								<th>HTML</th>
+							</tr>
+							<tr>
+								<td>
+									<pre><code data-trim style="width: 35vw;height: 30vh;">
+										# Title
+										## Subtitle
+										### header 3
+										paragraph
+
+										another paragraph
+
+										inline `code`
+
+										    <p>paragraph code can be made with four spaces before your code</p>
+										    <footer>like this</footer>
+
+										[here is link](https://google.com)
+
+										![image alt text](image1.png)
+
+										### Also horizontal line can be generate by three dashes
+										like:
+
+										---
+
+										### For list see this!
+
+										* unordered item 1
+										  * unordered sub-item 1
+
+										1. number list 1
+										2. ordered item 2
+
+										### Also we can make bold or italic text
+
+										*italic*
+
+										**bold**
+
+										***bold+italic**
+									</code></pre>
+								</td>
+								<td>
+									<pre><code data-trim style="width: 35vw;height: 30vh;">
+										<h1>>Title</h1>
+										<h2>Subtitle</h2>
+										<h3>>header 3</h3>
+										<p>paragraph</p>
+										<br />
+										<p>another paragraph</p>
+										<br />
+										inline <code>code</code>
+										<br />
+										<pre><code>
+										  <p>paragraph code can be made with four spaces before your code</p>
+										  <footer>like this</footer>
+										</code></pre>
+										<br />
+										<a href="https://google.com">here is link</a>
+										<br />
+										<img src="image1.png" alt="image alt text">
+										<br />
+										<h3>>Also horizontal line can be generate by three dashes</h3>
+										like:
+
+										<hr />
+
+										<h3>>For list see this!</h3>
+
+										<ul>
+										  <li>unordered item 1</li>
+										  <ul>
+										    <li>unordered sub-item 1</li>
+										  </ul>
+										</ul>
+
+										<ol>
+										  <li>number list 1</li>
+										  <li>ordered item 2</li>
+										</ol>
+
+										<h3>>Also we can make bold or italic text</h3>
+
+										<i>italic</i>
+
+										<b>bold</b>
+
+										<i><b>bold+italic</b></i>
+									</code></pre>
+							</tr>
+					</section>
+-->
+
+					<section id="bootstrap">
+					</section>
+
+
+					<section id="api">
+					</section>
+				</section>
+
+
+
+				<section>
+					<section id="content">
+						<h4>How do we serve contents</h4>
+						<p id="ssmalltxxt">We support serving content in many ways, as we mention above most CMS will have restriction on accessing your own data, but we don't. <br />We have a flow that follows our serving priority.
+						</p><hr />
+						<ol id="smalltxt">
+							<li><a href="#/content-db">Posts that save content in JSON db</a></li>
+							<li><a href="#/content-html">Posts that save content in HTML file</a></li>
+							<li><a href="#/content-html-file">HTML files (including system's and yours)</a></li>
+							<li><a href="#/content-script-file">Javascript/CSS (JS first than CSS) files (system's &amp; yours)</a></li>
+							<li><a href="#/content-other-file">All the other files</a></li>
+						</ol>
+						<p style="font-size: 75%;">Also we have <code id="redtxt">&#60;pre&#62;</code> function which let you view the code. <a href="#/content-pre-file">more info</a>
+						<br />
+						<strong style="font-size: 48%">Notice: any file with extensionare other files, html/js/css files' priority are serve by non-extension URL</strong>
+					</section>
+
+
+					<section id="content-db">
+						We serve content as first priority from JSON database which was store in the following structure
+						<pre><code data-trim>
+							{
+							  ...
+							  "post": {
+							    "first_post": {
+							      ...
+							      "content": "<h1>Hello</h1><p>paragraph</p>"
+							      ...
+							    }
+							  }
+							  ...
+							}
+						</code></pre>
+					</section>
+
+					<section id="content-html">
+						Then, the second priority content is serve from HTML file which has been defined in this structure
+						<pre><code data-trim>
+							{
+							  ...
+							  "post": {
+							    "first_post": {
+							      ...
+							      "contentpath": "/helloworld.html"
+							      ...
+							    }
+							  }
+							  ...
+							}
+						</code></pre>
+					</section>
+
+
+					<section id="content-html-file">
+						<div id="smalltxt">
+						Third, we serve extension-less HTML file. So in this case we search data with <code id="redtxt">request_path.html</code> pattern
+						<br />
+						<hr />
+						So when visitor visit:
+						</div>
+						<pre><code data-trim>
+							example.com/mysite
+						</code></pre>
+						<p id="smalltxt">They're actually visiting:</p>
+						<pre><code data-trim>
+							example.com/mysite.html
+						</code></pre>
+						
+					</section>
+
+
+					<section id="content-script-file">
+						<div>
+						Forth, this action trigger when visitor visit <code id="redtxt">example.com/mysite</code> and <code id="redtxt"> mysite.html</code> <br />can't found.
+						<br />
+						<hr />
+						As above it rewrite first rewrite to <code id="redtxt">.js</code> file <br />if still not found than rewrite to <code id="redtxt">.css</code> file.
+						</div>
+					</section>
+
+
+					<section id="content-other-file">
+						Lastly, this function let you normally view your file with extensions.
+						<br />
+						<hr />
+						<br />
+						But don't leave click <code id="redtxt">down</code> button or <a href="#/content-pre-file">here</a> <br />to view our special feature!!
+					</section>
+
+
+					<section id="content-pre-file">
+						<h3>This is the special part of our application, we support viewing code!</h3>
+						so if you visit <code id="redtxt">example.com/pre/file.html</code> instead of <code id="redtxt">example.com/file.html</code> <br />you can see the code in <code id="redtxt">file.html</code>
+						<br />
+						But for security reason some path has been block <br />from <code id="redtxt">pre</code> viewing or even normal viewing.
+						<br />
+						Also, you can turn this function off if you don't want it.
+					</section>
+				</section>
+				<section id="end">
+					<h2>Thank you for watching</h3>
+					<hr />
+					<h3>This presentation was <br />made by <a href="https://andrewyg.net">Andrew</a> <br />using <a href="http://lab.hakim.se/reveal-js/">reveal.js</a> framework</h3>
 				</section>
 			</div>
 
