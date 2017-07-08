@@ -1,0 +1,8 @@
+/node_modules
+/public/**/*.html
+/public/examples/*/example.js
+/public/examples/prosemirror.js
+/public/css/editor.css
+.tern-port
+/src/collab/demo-instances.json
+/CHANGELOG.md

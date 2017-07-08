@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>diffsync todos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/client/assets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/client/assets/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="/client/assets/client.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>diffsync todos</h1>
+
+    <div class="row">
+      <p>Create a collaborative todo list:</p>
+
+      <form id="todoCreateForm">
+        <input class="u-pull-left" type="text" placeholder="Todo name" id="todoName">
+        <button class="button-primary" id="todoCreate">create</button>
+      </form>
+
+      <a href="/todos/test">Go to test todos</a>
+    </div>
+
+
+    <div class="row">
+      <h2>Stats</h2>
+      <table>
+        <tr>
+          <td>Connections</td>
+          <td>{{activeConnections}}</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <script>
+    var form = document.getElementById('todoCreateForm');
+    var button = document.getElementById('todoCreate');
+    var nameField = document.getElementById('todoName');
+
+    var createTodo = function(event){
+      event.preventDefault();
+      var name = nameField.value;
+
+      if(name){
+        document.location.href = '/todos/' + name.trim();
+      }
+    };
+
+    form.addEventListener('submit', createTodo);
+    button.addEventListener('click', createTodo);
+  </script>
+
+</body>
+</html>

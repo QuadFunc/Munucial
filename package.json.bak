@@ -1,0 +1,24 @@
+{
+  "name": "munucial",
+  "version": "0.0.1",
+  "description": "A multi-function self-designed CMS",
+  "main": "index.min.js",
+  "dependencies": {
+    "diffsync": "^2.1.2",
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10",
+    "jsonfile": "^3.0.0",
+    "minify": "^2.0.14",
+    "node-cmd": "^3.0.0",
+    "npm": "^3.10.10",
+    "request": "^2.81.0",
+    "socket.io": "^2.0.3",
+    "syncs": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrewyg",
+  "license": "ISC"
+}

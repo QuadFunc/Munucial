@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^192.168.118.18$ [NC]
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ http://192.168.118.18:3000/$1 [L,R=301]

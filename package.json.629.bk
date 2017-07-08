@@ -1,0 +1,34 @@
+{
+  "name": "munucial",
+  "version": "0.0.1",
+  "description": "A self-designed multi-function CMS",
+  "main": "index.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "diffsync": "^2.1.2",
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10",
+    "js-beautify": "^1.6.14",
+    "jsesc": "^2.5.1",
+    "jsonfile": "^3.0.0",
+    "jsonfile2": "^2.1.0",
+    "markdown": "^0.5.0",
+    "lokijs": "^1.5.0",
+    "minify": "^2.0.14",
+    "node-cmd": "^3.0.0",
+    "mediaelement": "^4.1.3",
+    "npm": "^3.10.10",
+    "request": "^2.81.0",
+    "socket.io": "^2.0.3",
+    "showdown": "^1.7.1",
+    "syncs": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.min.js"
+  },
+  "author": "andrewyg",
+  "license": "ISC"
+}

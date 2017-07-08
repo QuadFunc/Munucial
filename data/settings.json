@@ -1,0 +1,22 @@
+{
+    "priority":["post", "page", "data"],
+    "dataprioriy":[null], 
+    "post":"/", 
+    "page":"/page", 
+    "data":"/files",
+    "template":{
+        "header":"/template/header",
+        "footer":"/template/footer",
+        "post":"/template/post",
+        "page":{
+            "avaliable":"false",
+            "path":null
+        },
+        "custom":{
+            "name":{
+                //template name list
+            }
+            //patern name: path
+        }
+    }
+}

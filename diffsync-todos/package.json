@@ -1,0 +1,42 @@
+{
+  "name": "diffsync-todos",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "browserify client/index.js -o client/bundle.js",
+    "start": "node server.js",
+    "watch": "watchify client/index.js -o client/bundle.js -v"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janmonschke/diffsync-todos.git"
+  },
+  "author": "Jan Monschke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janmonschke/diffsync-todos/issues"
+  },
+  "homepage": "https://github.com/janmonschke/diffsync-todos",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "browserify": "^9.0.8",
+    "cradle": "^0.6.9",
+    "diffsync": "2.1.1",
+    "diffsync-couchdb": "^1.0.0",
+    "handlebars": "^3.0.1",
+    "hapi": "^8.4.0",
+    "html-to-vdom": "^0.5.5",
+    "jquery": "^2.1.3",
+    "lodash.escape": "^3.0.0",
+    "observe-js": "^0.4.2",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5",
+    "underscore": "^1.8.3",
+    "virtual-dom": "^2.0.1",
+    "watchify": "^3.1.0"
+  }
+}

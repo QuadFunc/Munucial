@@ -1,0 +1,132 @@
+{
+    "path": {
+        "/": "home",
+        "/sample": "sample_post",
+        "/text": "test_md",
+        "/demo": "demo",
+        "/login": "login"
+    },
+    "global": {
+        "header": {
+            "meta": "<meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "css": [
+                "/bs/css/bootstrap.min.css",
+                "/assets/css/style.css"
+            ],
+            "js": [
+                "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js",
+                "/bs/js/bootstrap.min.js"
+            ],
+            "fonts": []
+        },
+        "footer": {
+            "js": {},
+            "copyright": {
+                "year": {
+                    "from": false,
+                    "now": true
+                },
+                "symbol": true,
+                "name": "Andrewyg",
+                "rights": "All rights reserved"
+            }
+        }
+    },
+    "post": {
+        "login": {
+            "contentpath": "/login.html"
+        },
+        "demo": {
+            "contentpath": "/demo/demo.html"
+        },
+        "test_md": {
+            "content": "<p>Hello</p>\n<p>I'm Andrew</p>"
+        },
+        "sample_post": {
+            "title": "Smaple Post",
+            "path": "/sample",
+            "content": "<h1>Sample Post</h1><hr><p>Hello world</p>",
+            "timestamp": {
+                "creationdate": {
+                    "year": 2016,
+                    "month": 1,
+                    "week": 1,
+                    "day": 1,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "encode": "2016-12-25T09:30:36.118Z"
+                },
+                "lastupdate": {
+                    "year": 2016,
+                    "month": 1,
+                    "week": 1,
+                    "day": 1,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "encode": "2016-12-25T09:30:36.118Z"
+                }
+            }
+        },
+        "title": "hello guys"
+    },
+    "page": {},
+    "special": {
+        "home": {
+            "title": "Home Page",
+            "path": "/",
+            "content": "",
+            "timestamp": {
+                "creationdate": {
+                    "year": 2016,
+                    "month": 1,
+                    "week": 1,
+                    "day": 1,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "encode": "2016-12-25T09:30:36.118Z"
+                },
+                "lastupdate": {
+                    "year": 2016,
+                    "month": 1,
+                    "week": 1,
+                    "day": 1,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "encode": "2016-12-25T09:30:36.118Z"
+                }
+            }
+        },
+        "adminpanel": {
+            "title": "Control Panel",
+            "path": "/admin",
+            "contentfile": "/ap.html",
+            "timestamp": {
+                "creationdate": {
+                    "year": 2016,
+                    "month": 1,
+                    "week": 1,
+                    "day": 1,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "encode": "2016-12-25T09:30:36.118Z"
+                },
+                "lastupdate": {
+                    "year": 2016,
+                    "month": 1,
+                    "week": 1,
+                    "day": 1,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "encode": "2016-12-25T09:30:36.118Z"
+                }
+            }
+        }
+    },
+    "title": "hello guys"
+}

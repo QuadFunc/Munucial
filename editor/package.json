@@ -1,0 +1,56 @@
+{
+  "name": "prosemirror-website",
+  "version": "0.0.1",
+  "description": "ProseMirror's website, documentation system, and demos",
+  "maintainers": [
+    {
+      "name": "Marijn Haverbeke",
+      "email": "marijnh@gmail.com",
+      "web": "http://marijnhaverbeke.nl"
+    }
+  ],
+  "dependencies": {
+    "bubleify": "^0.7.0",
+    "codemirror": "^5.21.0",
+    "crel": "^3.0.0",
+    "prosemirror-collab": "^0.21.0",
+    "prosemirror-commands": "^0.21.0",
+    "prosemirror-example-setup": "^0.21.0",
+    "prosemirror-history": "^0.21.0",
+    "prosemirror-inputrules": "^0.21.0",
+    "prosemirror-keymap": "^0.21.0",
+    "prosemirror-markdown": "^0.21.0",
+    "prosemirror-menu": "^0.21.0",
+    "prosemirror-model": "^0.21.0",
+    "prosemirror-schema-basic": "^0.21.0",
+    "prosemirror-schema-list": "^0.21.0",
+    "prosemirror-schema-table": "^0.21.0",
+    "prosemirror-state": "^0.21.0",
+    "prosemirror-transform": "^0.21.0",
+    "prosemirror-view": "^0.21.0",
+    "uglifyify": "^3.0.4"
+  },
+  "devDependencies": {
+    "bubleify": "^0.7.0",
+    "browserify": "^13.0.0",
+    "punycode": "^1.4.0",
+    "getdocs": "^0.5.0",
+    "builddocs": "^0.1.1",
+    "glob": "^6.0.1",
+    "markdown-it": "^5.0.2",
+    "markdown-it-deflist": "^2.0.0",
+    "mold-template": "^2.0.0",
+    "watchify": "^3.2.0",
+    "moduleserve": "^0.8.0",
+    "ecstatic": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node src/collab/server/start.js",
+    "devserver": "node src/devserver.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prosemirror/website.git"
+  }
+}

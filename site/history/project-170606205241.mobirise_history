@@ -1,0 +1,664 @@
+{
+  "settings": {
+    "name": "Project",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 13,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-c",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-0\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#social-buttons1-3\">SHARE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-b\">PROGRESS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#pricing-table1-4\">DONATE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-0",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH IMAGE",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-3",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-4",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#303030",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": ""
+          },
+          "title": "PRICING TABLE",
+          "subtitle": "Pricing table with four columns and solid color background.",
+          "label1": "HOT!",
+          "title1": "STANDARD",
+          "subtitle1": "Description",
+          "currency1": "$",
+          "price1": "0",
+          "period1": "",
+          "description1": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
+          "label2": "HOT!",
+          "title2": "BUSINESS",
+          "subtitle2": "Description",
+          "currency2": "$",
+          "price2": "0",
+          "period2": "",
+          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
+          "label3": "HOT!",
+          "title3": "PREMIUM",
+          "subtitle3": "Description",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "",
+          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
+          "label4": "HOT!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Description",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "",
+          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "ARTICLE HEADER",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-9",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "mail@andrewyg.net",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-a",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<strong>Links</strong><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/\">Website builder</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>"
+        }
+      ]
+    },
+    "contact.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-6",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Munucial</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-0\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#social-buttons1-3\">SHARE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#social-buttons1-3\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DONATE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-8",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "mail@andrewyg.net",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_inherit": "contacts3",
+          "_styles": {
+            "p, .list-group-text, .form-control-label": {
+              "color": "#000"
+            },
+            "strong, h4": {
+              "color": "#7e9b9f"
+            },
+            "form .form-control": {
+              "border-color": "rgba(0, 0, 0, 0.2)",
+              "color": "#565656"
+            },
+            ".mbr-footer-content li": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
+            },
+            ".mbr-company .list-group-text::after": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts5",
+          "_anchor": "contacts5-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "+1 (0) 000 0000 001 or +1 (0) 000 0000 002",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "1234 Street Name, City AA 99999",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<a href=\"mailto:support@mobirise.com\">support@mobirise.com</a>",
+          "title1": "Categories",
+          "text5": "<li><a class=\"text-primary\" href=\"#\">Business</a></li><li><a class=\"text-primary\" href=\"#\">Design</a></li><li><a class=\"text-primary\" href=\"#\">Real life</a></li><li><a class=\"text-primary\" href=\"#\">Science</a></li><li><a class=\"text-primary\" href=\"#\">Tech</a></li>",
+          "text6": "<strong>Contacts</strong><br>Email: support@mobirise.com<br>Phone: +1 (0) 000 0000 001<br>Fax: +1 (0) 000 0000 002<br><br><br><strong>Address</strong><br>1234 Street Name<br>City, AA 99999",
+          "form": {
+            "title": "MESSAGE",
+            "action": "mail@andrewyg.net",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\">Contact us</a>"
+        }
+      ]
+    }
+  }
+}

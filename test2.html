@@ -1,0 +1,12 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $.getJSON( "data/data.json", function( data ) {
+  // now data is JSON converted to an object / array for you to use.
+  alert( data[1].cast ) // Tim Robbins, Morgan Freeman, Bob Gunton
+
+  var newMovie = {cast:'Jack Nicholson'} // a new movie object
+
+  // add a new movie to the set
+  //data.push(newMovie);      
+});
+</script>
