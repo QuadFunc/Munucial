@@ -8,14 +8,16 @@ var rssjson;
 app.use(jsonParser());
 
 app.post('/api/v1/rss/json', function(req, res) {
-	if (req.body.rssurl != undefined) {
-		var rssurl = req.body.rssurl;
-		Feed.load(rssurl, function(err, rss) {
-			rssjson = rss;
-		}
-	} else {
-		var rssdata = req.body.rssdata;
-		rssjson = rssparser.toJson(rssdata);
+    if (req.body.rssurl != undefined) {
+        var rssurl = req.body.rssurl;
+        Feed.load(rssurl, function(err, rss) {
+            rssjson = rss;
+        });
+    } else {
+        var rssdata = req.body.rssdata;
+        rssjson = rssparser.toJson(rssdata);
     }
-	res.json(rssjson);
-}
+    res.json(rssjson);
+});
+
+app.listen(8080);
